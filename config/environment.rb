@@ -9,7 +9,6 @@ Depot::Application.configure do
     config.action_mailer.smtp_settings = {
         address:"smtp.gmail.com",
         port: 587,
-        domain: "straightupdev.com",
         authentication: "plain",
         user_name: "willconrydeveloper@gmail.com",
         password: "VMdepot@6556",
